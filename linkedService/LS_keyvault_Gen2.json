@@ -1,0 +1,11 @@
+{
+	"name": "LS_keyvault_Gen2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://akvgen2.vault.azure.net/"
+		}
+	}
+}

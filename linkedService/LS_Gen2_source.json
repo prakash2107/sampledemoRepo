@@ -1,0 +1,19 @@
+{
+	"name": "LS_Gen2_source",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://adlsgen2formultiforeach.dfs.core.windows.net/",
+			"accountKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "LS_keyvault_Gen2",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "gen2key"
+			}
+		}
+	}
+}

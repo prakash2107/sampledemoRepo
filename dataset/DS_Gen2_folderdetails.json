@@ -1,0 +1,35 @@
+{
+	"name": "DS_Gen2_folderdetails",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_Gen2_source",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "master"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "raw"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

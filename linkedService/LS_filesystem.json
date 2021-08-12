@@ -1,0 +1,17 @@
+{
+	"name": "LS_filesystem",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\Sampledata",
+			"userId": "konduru.prakash@happiestminds.com",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI4YzMxMzhjNS04Y2IyLTQ3ZDEtYmVmMy0xNzE2ZjEyZTY5ODciLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "Selfhosted-IR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

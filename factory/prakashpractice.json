@@ -1,0 +1,9 @@
+{
+	"name": "prakashpractice",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "063a320d-56cb-44e4-89de-7bd04179bf50",
+		"tenantId": "ef7001e6-62bf-4001-bca9-abf257155644"
+	}
+}
